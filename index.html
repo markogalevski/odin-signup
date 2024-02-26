@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="leftpanel">
+      <div class="logo"><div class="logotext">ODIN</div></div>
+      <div class="credits">
+        Photo by
+        <a href="https://unsplash.com/@danfreemanphoto">Dan Freeman</a> on
+        <a href="https://unsplash.com">Unsplash</a>
+      </div>
+    </div>
+
+    <div class="rightpanel">
+      <div class="intro">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realise your deepest dreams. Sign up
+          <i>now</i>
+          to get started!
+        </p>
+        <p>You <i>know</i> you want to.</p>
+      </div>
+      <div class="formdata">
+        <h3>Let's do this!</h3>
+        <form id="form" action="" method="get">
+          <div class="formrow">
+            <div class="datapair">
+              <label>FIRST NAME <span class="req">*</span> </label
+              ><input type="text" required />
+            </div>
+            <div class="datapair">
+              <label>LAST NAME <span class="req">*</span> </label
+              ><input type="text" required />
+            </div>
+          </div>
+          <div class="formrow">
+            <div class="datapair">
+              <label>EMAIL <span class="req">*</span> </label
+              ><input type="email" required />
+            </div>
+            <div class="datapair">
+              <label>PHONE </label><input type="tel" />
+            </div>
+          </div>
+          <div class="formrow">
+            <div class="datapair">
+              <label>PASSWORD <span class="req">*</span> </label
+              ><input type="password" required />
+            </div>
+            <div class="datapair">
+              <label>CONFIRM PASSWORD <span class="req">*</span> </label
+              ><input type="password" required />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="submitsection">
+        <button type="submit" form="form">Create account</button>
+        <p class="account">
+          Already have an account?
+          <a href="https://www.theodinproject.com">Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
