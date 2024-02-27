@@ -1,6 +1,7 @@
+
 @font-face {
-  font-family: broadway;
-  src: url("./assets/fonts/Broadway.woff") format("woff");
+  font-family: chopin;
+  src: url("./assets/fonts/Chopin-Light.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -41,11 +42,21 @@ body {
   text-align: center;
 }
 
+
 .logotext {
   background-color: var(--bg-fade);
   padding: 0.3rem;
-  font-size: 7rem;
-  font-family: broadway;
+  font-size: 5rem;
+  font-family: chopin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  display: inline;
+  width: 15%;
+  justify-content: center;
 }
 
 .credits {
